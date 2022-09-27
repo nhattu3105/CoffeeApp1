@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#5AAF2F</color>
+
+    <!--Light Mode Color-->
+    <color name="colorAccent_Light">#FFEB3B</color>
+    <color name="background_Light">#FDFDFE</color>
+    <color name="Background_Light_S">#ECECEC</color>
+    <color name="Titele_A_Light">#161616</color>
+    <color name="Titele_AA_Light">#6D6D6D</color>
+    <color name="Boder_Light">#1A0C1318</color>
+
+    <!--Night Mode Color-->
+    <color name="colorAccent_Night">#FFEB3B</color>
+    <color name="background_Night">#000000</color>
+    <color name="Background_Night_S">#121212</color>
+    <color name="Titele_A_Night">#DBDBDB</color>
+    <color name="Titele_AA_Night">#E9A0A0A0</color>
+    <color name="Boder_Night">#191919</color>
+
+
+
+    <color name="blue_500">#FF2196F3</color>
+    <color name="teal_200">#FDBE3B</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTextHint">#7B7B7B</color>
+    <color name="colorDelete">#ff4842</color>
+
+
+    <color name="circle_lock_screen_pf">#EE5555</color>
+    <color name="background_lock_screen_pf">#663333</color>
+    <color name="code_lock_screen_pf">#000000</color>
+    <color name="white_selector_pf">#66000000</color>
+    <color name="hint_color">#42000000</color>
+    <color name="warning_color">#f4511e</color>
+    <color name="success_color">#009688</color>
+
+    <color name="button">#EFE3C8</color>
+
+
+    <color name="colorPrimary">#201520</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorAccent">#FDBE3B</color>
+    <color name="colorSearchIcon">#EDBDBD</color>
+    <color name="colorQuickActionsBackground">#2F2D2E</color>
+    <color name="colorIcon">#686666</color>
+    <color name="colorMiscell">#1F1F1F</color>
+    <color name="colorSearchBackground">#676565</color>
+</resources>

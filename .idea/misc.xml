@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/background_dialog.xml" value="0.179" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/background_note.xml" value="0.169" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/background_search.xml" value="0.1245" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/btn.xml" value="0.1245" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1865" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/ic_baseline_add_box_24.xml" value="0.1245" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.1205" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/drawable/tableview.xml" value="0.169" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/activity_layoutadditemmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/activity_main_add_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/activity_main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/activity_main_menu_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/activity_main_table_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/addItemMenulayout.xml" value="0.25025641025641027" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/addtable_layout.xml" value="0.25025641025641027" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/addtablelayout.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layout_custom_dialog_table.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layout_douong.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layout_itemmenu.xml" value="0.176" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layout_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layout_tableview.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layoutadditem.xml" value="0.25416666666666665" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layoutdeleteitem.xml" value="0.253125" />
+        <entry key="..\:/coffeeProject2/app/src/main/res/layout/layoutdeletetable.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

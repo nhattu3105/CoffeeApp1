@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/background_note"
+    android:layout_margin="@dimen/_5sdp"
+    android:id="@+id/layoutmenu"
+    tools:ignore="InvalidId">
+
+    <ImageView
+        android:id="@+id/hinh"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:scaleType="fitXY"></ImageView>
+
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/hinh"
+        android:gravity="left|center"
+        android:hint="Name"
+        android:textColor="@color/white"
+        android:textSize="15dp"></TextView>
+
+    <TextView
+
+        android:id="@+id/gia"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ten"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@id/hinh"
+        android:gravity="left|center"
+        android:hint="Cost"
+        android:textColor="@color/white"
+        android:textSize="15dp"></TextView>
+
+
+
+
+
+</RelativeLayout>

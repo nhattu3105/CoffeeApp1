@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/addtable"
+    android:padding="10dp"
+    tools:context=".AddtableLayout">
+
+    <EditText
+        android:id="@+id/txtl_addtable_tenban"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên bàn"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidthFocused="2dp"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_addtable_TaoBan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="10dp"></EditText>
+
+    <Button
+        android:id="@+id/btn_addtable_TaoBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/Background_Light_S"
+        android:text="Tạo bàn"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        app:backgroundTint="#FECE2F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtl_addtable_tenban"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btn_edittable_TaoBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/Background_Light_S"
+        android:text="Sửa"
+        android:textColor="@color/black"
+        app:backgroundTint="#FECE2F"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_addtable_TaoBan"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btn_deletetable_TaoBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/Background_Light_S"
+        android:text="Xóa bàn"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:backgroundTint="#FECE2F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_edittable_TaoBan"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

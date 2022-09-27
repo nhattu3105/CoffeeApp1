@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".Table.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LayoutQuickAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:padding="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RycecycleView">
+
+        <ImageButton
+            android:id="@+id/choose"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/tableview"
+            android:minHeight="48dp"
+            app:srcCompat="@drawable/ic_baseline_storage_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/ChartButton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:background="@drawable/tableview"
+            app:srcCompat="@drawable/ic_baseline_insert_chart_outlined_24"
+            tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/imageAddTableMain"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tableview"
+            android:layout_marginLeft="@dimen/_25sdp"
+            app:srcCompat="@drawable/ic_baseline_add_24">
+        </ImageButton>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RycecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="240dp"
+        android:clipToPadding="false"
+        android:paddingStart="0dp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutQuickAction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></androidx.recyclerview.widget.RecyclerView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

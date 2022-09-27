@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_100sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:background="@drawable/backgr_table"
+    android:id="@+id/layouttable">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bàn:"
+        android:textSize="@dimen/_25sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/TableNum"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/TableNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_25sdp"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toEndOf="@+id/name">
+
+    </TextView>
+    <ImageButton
+        android:id="@+id/listchoose1"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/tableview"
+        android:minHeight="48dp"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_baseline_storage_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        tools:ignore="UseAppTint" />
+
+    <ImageButton
+        android:id="@+id/listchoose2"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:background="@drawable/tableview"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:minHeight="48dp"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_baseline_add_box_24"
+        app:layout_constraintStart_toEndOf="@+id/listchoose1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:ignore="UseAppTint" />
+    <ImageButton
+        android:id="@+id/listchoose3"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:background="@drawable/tableview"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/ic_baseline_search_24"
+        app:layout_constraintStart_toEndOf="@+id/listchoose2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:tint="@color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
